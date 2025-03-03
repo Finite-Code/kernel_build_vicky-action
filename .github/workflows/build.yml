@@ -15,7 +15,7 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/ShivamX087/kernel_motorola_vicky/tree/android12-5.10-R
+          kernel-url: https://github.com/ShivamX087/kernel_motorola_vicky
           kernel-dir: kernel
           kernel-branch: android12-5.10-R
           config: defconfig
