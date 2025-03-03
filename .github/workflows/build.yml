@@ -13,11 +13,11 @@ jobs:
 
     steps:
     - name: Build Kernel
-      uses: dabao1955/kernel_build_action@main
+      uses: Finite-Code/kernel_build_vicky-action@main
       with:
           kernel-url: https://github.com/Finite-Code/vicky-kernel
           kernel-dir: kernel
-          kernel-branch: main
+          kernel-branch: stock
           config: defconfig
           arch: arm64
           aosp-gcc: true
